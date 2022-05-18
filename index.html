@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Casa Verde</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/base/base.css">
-<link rel="stylesheet" href="assets/css/componentes/botoes.css">
-<link rel="stylesheet" href="assets/css/componentes/input.css">
-<link rel="stylesheet" href="assets/css/componentes/cartao.css">
-<link rel="stylesheet" href="assets/css/componentes/item.css">
-</head>
-<body>
-    <main class="container">
-        <button class="botao">Assinar Newsletter</button>
-        <input type="text" class="input input--icone input--email" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail">
-        <button class="botao botao--alternativo">Alternativo</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Casa Verde</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/base/base.css">
+        <link rel="stylesheet" href="assets/css/componentes/botoes.css">
+        <link rel="stylesheet" href="assets/css/componentes/input.css">
+        <link rel="stylesheet" href="assets/css/componentes/cartao.css">
+        <link rel="stylesheet" href="assets/css/componentes/item.css">
+        <link rel="stylesheet" href="assets/css/componentes/produto.css">
+    </head>
+    <body>
+        <main class="container">
+            <button class="botao">Assinar Newsletter</button>
+            <input type="text" class="input input--icone input--email" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail">
+            <button class="botao botao--alternativo">Alternativo</button>
 
-        <article class="cartao">
-            <h2 class="titulo alinhamento--meio">Como conseguir
-                <span class="titulo--destaque">minha planta</span>
-            </h2>
-            <ul class="lista-item">
-                <li class="item">
-                    <span class="item__icone item__icone--cursor"></span>
-                    <p>Escolha suas plantas</p>
-                </li>
-                <li class="item">
-                    <span class="item__icone item__icone--carrinho"></span>
-                    <p>Faça seu pedido</p>
-                </li>
-                <li class="item">
-                    <span class="item__icone item__icone--caminhao"></span>
-                    <p>Aguarde na sua casa</p>
-                </li>
-            </ul>
-        </article>
-    </main>
-    
+            <article class="cartao">
+                <h2 class="titulo alinhamento--meio">Como conseguir
+                    <span class="titulo--destaque">minha planta</span>
+                </h2>
+                <ul class="lista-item">
+                    <li class="item">
+                        <span class="item__icone item__icone--cursor"></span>
+                        <p>Escolha suas plantas</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--carrinho"></span>
+                        <p>Faça seu pedido</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--caminhao"></span>
+                        <p>Aguarde na sua casa</p>
+                    </li>
+                </ul>
+            </article>
 
-
-</body>
+            <article class="produto">
+                <img src="assets/img/produto-01.png" alt="Foto do produto" class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="produto__titulo titulo--destaque">Ajuga reptans</h3>
+                    <p class="produto__preco">R$ 20,00</p>
+                    <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                </div>
+            </article>
+        </main>
+    </body>
 </html>
